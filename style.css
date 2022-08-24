@@ -1,0 +1,50 @@
+.logo {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+.hero-image {
+  width: 20rem;
+  height: 20rem;
+}
+
+.main-text-box {
+  font-size: 2em;
+  padding: 0 8rem 0 8rem;
+}
+
+.cat-image-content {
+  width: 10rem;
+  height: 10rem;
+}
+
+header {
+  min-height: 6rem;
+}
+
+main {
+  min-height: 20rem;
+}
+
+/* footer {
+  min-height: 4rem;
+} */
+
+/* SECTION debugger */
+body.debug .container,
+body.debug .container-fluid {
+  border: 2px double blue;
+  outline-offset: -2px;
+}
+
+body.debug .row {
+  border: 2px dashed red;
+  outline-offset: -2px;
+}
+
+body.debug .col {
+  border: 2px dotted forestgreen;
+  outline-offset: -2px;
+}
